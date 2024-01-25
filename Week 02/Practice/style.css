@@ -1,0 +1,35 @@
+h2{
+    color: rgb(21, 228, 155);
+    font-style: italic;
+}
+title1{
+    color: rgb(16, 100, 71);
+    font-style: italic;
+}
+p1{
+    column-fill: balance;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box-with-id{
+   width: 300px;
+height: 150px;
+    background-color: blue;
+}
+.box1{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #27ae60;
+    margin: 20px;
+}
+
+.example {
+    width: 300px;
+    height: 150px;
+    padding: 1em;
+    margin-bottom: 20p
+    background-color: #3498db; /* Hexadecimal color */
+    color: white; /* Named color */
+    border: 2px solid rgb(255, 0, 0); /* RGB color *
+}
+
