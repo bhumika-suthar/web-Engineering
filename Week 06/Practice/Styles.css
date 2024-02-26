@@ -1,0 +1,11 @@
+#container{
+    display: flex;
+    border: green 4px solid;
+    background-color:blueviolet
+}
+.ball{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
