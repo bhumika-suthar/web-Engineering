@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #444;
+}
+
+header {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QGO8daLy5R-NXCXuCUe4kp37-KUlHSh0QQ&usqp=CAU');
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    padding: 20px;
+    text-align:  center;
+   
+    height: 200px;
+}
+header h1 {
+    position: relative;
+}
+
+nav {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    font-style: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+.fee_container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-content {
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.department-description {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.department-description h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.department-description p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.building-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.building-photos img {
+    width: calc(33.33% - 10px);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-content button {
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.right-content button:hover {
+    background-color: #0d58a8;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fee-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.fee-table th,
+.fee-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.fee-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.event {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.event-details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.event-details h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    margin-bottom: 10px;
+}
+
+.event-image {
+    flex: 1;
+}
+
+.event-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.fee-table td {
+    background-color: #f8f9fa;
+}
+
+.fee-table td:first-child {
+    font-weight: bold;
+}
+
+.fee-table td:last-child {
+    text-align: right;
+}
+
+.fee-description, .scholarship-description {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.scholarship-description {
+    font-style: italic;
+    color: #777;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .fee-table {
+        font-size: 14px;
+    }
+
+    .fee-table th,
+    .fee-table td {
+        padding: 8px;
+    }
+
+    .fee-table th {
+        font-size: 16px;
+    }
+}
+
+.criteria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.criterion {
+    width: 48%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.icon i {
+    color: #007bff;
+}
+
+.details h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .criterion {
+        width: 100%;
+    }
+}

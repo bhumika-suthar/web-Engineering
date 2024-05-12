@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department - University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #444;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .department {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .faculty-list {
+            padding-left: 20px;
+        }
+        .event-list {
+            padding-left: 20px;
+        }
+        .department:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        .department h2 {
+            position: relative;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .department h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #007bff;
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+        }
+        .department p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .department ul {
+            margin-top: 10px;
+        }
+        .department ul li {
+            font-size: 14px;
+        }
+        .department ul li::before {
+            content: '\2022';
+            color: #007bff;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .department img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Science Department - University</h1>
+    </header>
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#fees">Fee Structure</a>
+        <a href="#admission">Admission Criteria</a>
+        <a href="#structure">Degree Program Structure</a>
+        <a href="#events">Events</a>
+    </nav>
+    <div class="container">
+        <div id="overview" class="department">
+            <img src="cs_building.jpg" alt="Computer Science Building">
+            <div>
+                <h2>About Computer Science Department</h2>
+                <p>The Computer Science Department at our university is committed to providing high-quality education and research opportunities in the field of computer science. Our programs
+                    <p>are designed to prepare students for successful careers in industry, academia, and beyond.</p>
+                </div>
+            </div>
+            <div id="fees" class="department">
+                <h2>Fee Structure</h2>
+                <table>
+                    <tr>
+                        <th>Program</th>
+                        <th>Tuition Fee</th>
+                    </tr>
+                    <tr>
+                        <td>Bachelor's Degree</td>
+                        <td>$10,000 per semester</td>
+                    </tr>
+                    <tr>
+                        <td>Master's Degree</td>
+                        <td>$12,000 per semester</td>
+                    </tr>
+                    <tr>
+                        <td>Ph.D. Degree</td>
+                        <td>$15,000 per semester</td>
+                    </tr>
+                </table>
+                <h3>Hostel Fees</h3>
+                <p>Hostel fees vary based on accommodation type and facilities provided. Please contact the university for more information.</p>
+                <h3>Scholarship Information</h3>
+                <p>We offer scholarships for outstanding students based on academic performance and financial need. Please visit our scholarship page for more details.</p>
+            </div>
+            <div id="admission" class="department">
+                <h2>Admission Criteria</h2>
+                <p>To be eligible for admission to our Computer Science programs, applicants must meet the following criteria:</p>
+                <ul>
+                    <li>Completion of high school education or equivalent</li>
+                    <li>Minimum GPA requirement</li>
+                    <li>Satisfactory performance in entrance exams (if applicable)</li>
+                </ul>
+                <p>Admission processes may vary for different programs. Please refer to the university's admission portal for specific requirements and procedures.</p>
+            </div>
+            <div id="structure" class="department">
+                <h2>Degree Program Structure</h2>
+                <p>Our Computer Science degree programs offer a comprehensive curriculum covering various core and elective courses. Below is a general structure:</p>
+                <ul>
+                    <li>Introduction to Computer Science</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Computer Networks</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Database Management Systems</li>
+                    <li>Software Engineering</li>
+                </ul>
+                <p>Students are required to complete a certain number of credit hours to fulfill degree requirements.</p>
+            </div>
+            <div id="events" class="department">
+                <h2>Events</h2>
+                <div class="event">
+                    <img src="event1.jpg" alt="Event 1">
+                    <p>Guest Lecture on Artificial Intelligence - Date: March 15, 2024</p>
+                </div>
+                <div class="event">
+                    <img src="event2.jpg" alt="Event 2">
+                    <p>Hackathon Competition - Date: April 20-22, 2024</p>
+                </div>
+                <div class="event">
+                    <img src="event3.jpg" alt="Event 3">
+                    <p>Networking Workshop - Date: May 10, 2024</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
